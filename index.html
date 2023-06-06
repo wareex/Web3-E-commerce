@@ -257,12 +257,46 @@
               </a>
             </li>
             <li>
-              <a href="#" class="nav-link text-white">
+              <a href="#" class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#acct">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                   <use xlink:href="#people-circle" />
                 </svg>
                 Account
               </a>
+              <!-- Sign in us Modal Box -->
+              <!-- ATTACHED TO ACCOUNT LINK -->
+<div class="modal fade" tabindex="-1" role="dialog" id="acct">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content rounded-4 shadow">
+      <div class="modal-header p-5 pb-4 border-bottom-0">
+        <img class="mb-4" src="assets/brand/bootstrap-logo.svg" alt="" width="75" height="63">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-3 pt-0">
+        <form>
+          <h1 class="h3 mb-3 fw-normal"> <p class="text-body-secondary">Please sign in</p></h1>
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="form-check text-start my-3">
+            <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <p class="text-body-secondary">Remember me</p>
+            </label>
+          </div>
+          <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+          <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2023</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
             </li>
             <li>
               <a href="#" class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#contactus">
@@ -271,7 +305,7 @@
                 </svg>
                 Contact Us
               </a>
-
+  <!-- Contact us Modal Box -->
 <div class="modal fade" tabindex="-1" role="dialog" id="contactus">
   <div class="modal-dialog" role="document">
     <div class="modal-content rounded-4 shadow">
@@ -279,7 +313,6 @@
         <h1 class="text-body-secondary">Message Us Here</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-
       <div class="modal-body p-5 pt-0">
         <form class="">
           <div class="form-floating mb-3">
@@ -466,8 +499,6 @@
   </div><!-- /.row -->
 
 
-
-
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 py-3">
@@ -537,8 +568,8 @@
   </div>
   </div>
 </main>
-
-<footer class="container py-5">
+</-- Footer -->
+<footer class="container py-5 ">
   <div class="row">
     <div class="col-12 col-md">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
