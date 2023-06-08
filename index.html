@@ -288,7 +288,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body p-5 pt-0">
-        <form>
+        <form action="dashboard.html">
           <h1 class="h3 mb-3 fw-normal"> <p class="text-body-secondary">Please sign in</p></h1>
           <div class="form-floating">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -304,10 +304,7 @@
               <p class="text-body-secondary">Remember me</p>
             </label>
           </div>
-            <a href="dashboard.html">
               <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
-            </a>
-              
           <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2023</p>
         </form>
       </div>
@@ -436,7 +433,7 @@
         <div class="carousel-caption text-start">
           <h1>Web3 E-commerce</h1>
           <p class="opacity-75">Leverging the Decentralize System for Payment</p>
-          <p><a class="btn btn-lg btn-primary" href="#">Get an Account</a></p>
+          <p><a class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#signupmodal">Get an Account</a></p>
         </div>
       </div>
     </div>
@@ -449,7 +446,7 @@
         <div class="carousel-caption">
           <h1>Another example headline.</h1>
           <p>Some representative placeholder content for the second slide of the carousel.</p>
-          <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          <p><a class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#aboutus">Learn more</a></p>
         </div>
       </div>
     </div>
@@ -462,7 +459,7 @@
         <div class="carousel-caption text-end">
           <h1>One more for good measure.</h1>
           <p>Some representative placeholder content for the third slide of this carousel.</p>
-          <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          <p><a class="btn btn-lg btn-primary" href="products.html">Browse All Products</a></p>
         </div>
       </div>
     </div>
