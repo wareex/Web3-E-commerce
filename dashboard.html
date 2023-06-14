@@ -267,7 +267,8 @@
   </symbol>
 </svg>
 
-<header>
+<header class="navbar sticky-top bg-dark flex-md-nowrap p-0 shadow" data-bs-theme="dark">
+  
   <div class="px-3 py-2 text-bg-dark border-bottom">
     <div class="container-fluid">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -366,11 +367,13 @@
       </div>
     </div>
   </div>
-  
+
 </header>
+
 
 <div class="container-fluid">
   <div class="row">
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary">
       <div class="offcanvas-lg offcanvas-end bg-body-tertiary" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
         <div class="offcanvas-header">
@@ -466,10 +469,11 @@
         </div>
       </div>
       </div>
-    
+    </div>
 
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
 <!--Dash head-->
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Dashboard</h1>
@@ -484,9 +488,10 @@
           </button>
         </div>
       </div>
-
+</div>
 <!--First Grid for Crpto chart-->
-    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">    
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
       <div class="col-sm-2 col-lg-3 themed-grid-col">
         <!-- Crypto.com widget view-->
   <script src="https://price-static.crypto.com/latest/public/static/widget/index.js"></script>
@@ -499,15 +504,17 @@
   </div>
   <!--Crypto.com view ends-->
   </div>
+  </div>
 
   <!---Seconf Grid for Display-->
-      <div class="col-sm-4 col-lg-8 themed-grid-col d-flex align-items-center">
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">   
+  <div class="col-sm-4 col-lg-8 themed-grid-col d-flex align-items-center">
         <canvas class="my-4 " id="myChart" width="400" height="380"></canvas>
       </div>
-</div>
-      
       </div>
-    </main>
+</div>      
+
+</main>
   </div>
 </div>
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
