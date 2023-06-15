@@ -373,7 +373,7 @@
     </div>
 
 <!--Sidebar Hide-->
-<nav class="navbar sticky-top bg-dark flex-md-nowrap p-0 shadow">
+<nav class="navbar bg-dark flex-md-nowrap p-0 shadow">
   <ul class="navbar-nav flex-row d-md-none">
     <li class="nav-item text-nowrap">
       <button class="nav-link px-3 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSearch" aria-controls="navbarSearch" aria-expanded="false" aria-label="Toggle search">
@@ -391,13 +391,13 @@
     <input class="form-control w-100 rounded-0 border-0" type="text" placeholder="Search" aria-label="Search">
   </div>
   </nav>
-  
 </header>
 
 
+<!--SIDEBAR GANGAN-->
+
 <div class="container-fluid">
   <div class="row">
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary">
       <div class="offcanvas-lg offcanvas-end bg-body-tertiary" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
         <div class="offcanvas-header">
@@ -430,60 +430,57 @@
                 Cart
               </a>
             </li>
-
-          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-body-secondary text-uppercase">
-            <span>Assets</span>
-            <a class="link-secondary" href="#" aria-label="Add a new report">
-              <svg class="bi"><use xlink:href="#plus-circle"/></svg>
-            </a>
-          </h6>
-          <ul class="nav flex-column mb-auto">
-            <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
-                <svg class="bi"><use xlink:href="#currency-bitcoin"/></svg>
-                Account Balance
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-body-secondary text-uppercase">
+              <span>Assets</span>
+              <a class="link-secondary" href="#" aria-label="Add a new report">
+                <svg class="bi"><use xlink:href="#plus-circle"/></svg>
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
-                <svg class="bi"><use xlink:href="#repeat"/></svg>
-                EXchange
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
-                <svg class="bi"><use xlink:href="#collection"/></svg>
-                Crypto Portfoilo
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
-                <svg class="bi"><use xlink:href="#coin"/></svg>
-                Coupon
-              </a>
-            </li>
-          </ul>
-
-          <hr class="my-3">
-
-          <ul class="nav flex-column mb-auto">
-            <li class="nav-item dropdown bd-example m-0 border-0">
-            <a class="nav-link d-flex align-items-center gap-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="fa" >
-              <svg class="bi"><use xlink:href="#person-gear"/></svg>
-              Profile Settings
-            </a>
-            <ul class="dropdown-menu">
-              <li><h6 class="dropdown-header">Profile Settings</h6></li>
-              <li><a class="dropdown-item" href="#">Profie Update</a></li>
-              <li><a class="dropdown-item" href="#">KYC</a></li>
-              <li><a class="dropdown-item" href="#">MFA</a></li>
-              <li><a class="dropdown-item" href="#">Social Handles</a></li>
-              
-            </ul>
-          
-        
-            </li>
-            <li class="nav-item">
+            </h6>
+            <ul class="nav flex-column mb-auto">
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center gap-2" href="#">
+                  <svg class="bi"><use xlink:href="#currency-bitcoin"/></svg>
+                  Account Balance
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center gap-2" href="#">
+                  <svg class="bi"><use xlink:href="#repeat"/></svg>
+                  EXchange
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center gap-2" href="#">
+                  <svg class="bi"><use xlink:href="#collection"/></svg>
+                  Crypto Portfoilo
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center gap-2" href="#">
+                  <svg class="bi"><use xlink:href="#coin"/></svg>
+                  Coupon
+                </a>
+              </li>
+              <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-body-secondary text-uppercase">
+                <span>Profile Settings</span>
+                <a class="link-secondary" href="#" aria-label="Add a new report">
+                  <svg class="bi"><use xlink:href="#plus-circle"/></svg>
+                </a>
+              </h6>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center gap-2" href="#">
+                  <svg class="bi"><use xlink:href="#person-gear"/></svg>
+                  Profie Update
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center gap-2" href="#">
+                  <svg class="bi"><use xlink:href="#gear-wide-connected"/></svg>
+                  KYC and MFA
+                </a>
+              </li>
+  
+              <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="#">
                 <svg class="bi"><use xlink:href="#door-closed"/></svg>
                 Sign out
@@ -492,13 +489,12 @@
           </ul>
         </div>
       </div>
-      </div>
     </div>
 
 
+<!--Heder of dashboard body-->
+
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-<!--Dash head-->
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Dashboard</h1>
         <div class="btn-toolbar mb-2 mb-md-0">
@@ -512,33 +508,32 @@
           </button>
         </div>
       </div>
-</div>
-<!--First Grid for Crpto chart-->
+
+
+
+<!--First Grid for Crpto chart
 <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">    
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
       <div class="col-sm-2 col-lg-3 themed-grid-col">
-        <!-- Crypto.com widget view-->
+
+        <!-- Crypto.com widget view
+
   <script src="https://price-static.crypto.com/latest/public/static/widget/index.js"></script>
   <div
   id="crypto-widget-CoinList" class="my-4 w-100" 
   data-design="modern"
   data-coin-ids="1,166,382,136,20,418,1986,1120">
-  <!--XH Full Path inspect view-->
-  <!--Ends of Inpect view-->
-  </div>
-  <!--Crypto.com view ends-->
   </div>
   </div>
+  </div>
+<!--Crypto.com view ends-->
 
   <!---Seconf Grid for Display-->
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">   
-  <div class="col-sm-4 col-lg-8 themed-grid-col d-flex align-items-center">
-        <canvas class="my-4 " id="myChart" width="400" height="380"></canvas>
-      </div>
-      </div>
-</div>      
 
-</main>
+
+      <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+
+    </main>
   </div>
 </div>
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
